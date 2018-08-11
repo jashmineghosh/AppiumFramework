@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[excel location /Users/arnabbhuiya/eclipse-workspace/uiFramework/src/main/resources/configFile/testData.xlsx]]>
+    </line>
+    <line>
+      <![CDATA[captureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[excel location /Users/arnabbhuiya/eclipse-workspace/uiFramework/src/main/resources/configFile/testData.xlsx]]>
+    </line>
+    <line>
+      <![CDATA[captureScreen method called]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46170" started-at="2018-08-11T03:08:52Z" finished-at="2018-08-11T03:09:38Z">
+    <groups>
+    </groups>
+    <test name="Scroll" duration-ms="46170" started-at="2018-08-11T03:08:52Z" finished-at="2018-08-11T03:09:38Z">
+      <class name="com.uiFramework.myComp.myApp.testScripts.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uiFramework.myComp.myApp.testScripts.HomePageTest@5f282abb]" name="setUp" is-config="true" duration-ms="13108" started-at="2018-08-11T08:38:52Z" finished-at="2018-08-11T08:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.uiFramework.myComp.myApp.testScripts.HomePageTest@5f282abb]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2018-08-11T08:39:05Z" description="capture the name of method called" finished-at="2018-08-11T08:39:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.uiFramework.myComp.myApp.testScripts.HomePageTest.enterSearchCriteria() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="enterSearchCriteria()[pri:0, instance:com.uiFramework.myComp.myApp.testScripts.HomePageTest@5f282abb]" name="enterSearchCriteria" duration-ms="15688" started-at="2018-08-11T08:39:05Z" finished-at="2018-08-11T08:39:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[excel location /Users/arnabbhuiya/eclipse-workspace/uiFramework/src/main/resources/configFile/testData.xlsx]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterSearchCriteria -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.uiFramework.myComp.myApp.testScripts.HomePageTest@5f282abb]" name="afterMethod" is-config="true" duration-ms="860" started-at="2018-08-11T08:39:21Z" description="capture the screenshot of the method called" finished-at="2018-08-11T08:39:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterSearchCriteria status=SUCCESS method=HomePageTest.enterSearchCriteria()[pri:0, instance:com.uiFramework.myComp.myApp.testScripts.HomePageTest@5f282abb] output=excel location /Users/arnabbhuiya/eclipse-workspace/uiFramework/src/main/resources/configFile/testData.xlsx]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[captureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.uiFramework.myComp.myApp.testScripts.HomePageTest@5f282abb]" name="afterTest" is-config="true" duration-ms="2041" started-at="2018-08-11T08:39:36Z" finished-at="2018-08-11T08:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.uiFramework.myComp.myApp.testScripts.HomePageTest -->
+      <class name="com.uiFramework.myComp.myApp.testScripts.ProductPageTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.uiFramework.myComp.myApp.testScripts.ProductPageTest@167fdd33]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-08-11T08:39:22Z" description="capture the name of method called" finished-at="2018-08-11T08:39:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.uiFramework.myComp.myApp.testScripts.ProductPageTest.scrollAndClick() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="scrollAndClick()[pri:0, instance:com.uiFramework.myComp.myApp.testScripts.ProductPageTest@167fdd33]" name="scrollAndClick" duration-ms="13409" started-at="2018-08-11T08:39:22Z" finished-at="2018-08-11T08:39:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[excel location /Users/arnabbhuiya/eclipse-workspace/uiFramework/src/main/resources/configFile/testData.xlsx]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scrollAndClick -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.uiFramework.myComp.myApp.testScripts.ProductPageTest@167fdd33]" name="afterMethod" is-config="true" duration-ms="1040" started-at="2018-08-11T08:39:35Z" description="capture the screenshot of the method called" finished-at="2018-08-11T08:39:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scrollAndClick status=SUCCESS method=ProductPageTest.scrollAndClick()[pri:0, instance:com.uiFramework.myComp.myApp.testScripts.ProductPageTest@167fdd33] output=excel location /Users/arnabbhuiya/eclipse-workspace/uiFramework/src/main/resources/configFile/testData.xlsx]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[captureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.uiFramework.myComp.myApp.testScripts.ProductPageTest -->
+    </test> <!-- Scroll -->
+  </suite> <!-- Suite -->
+</testng-results>
