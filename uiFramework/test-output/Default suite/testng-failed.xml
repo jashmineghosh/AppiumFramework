@@ -3,15 +3,15 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.uiFramework.myComp.myApp.testBase.TestBaseRunner">
+      <class name="com.uiFramework.myComp.myApp.testScripts.LoginTest">
         <methods>
           <include name="afterTest"/>
+          <include name="Login"/>
           <include name="setUp"/>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
-          <include name="scrollAndClick"/>
         </methods>
-      </class> <!-- com.uiFramework.myComp.myApp.testBase.TestBaseRunner -->
+      </class> <!-- com.uiFramework.myComp.myApp.testScripts.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

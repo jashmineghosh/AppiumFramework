@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Scroll(failed)">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.uiFramework.myComp.myApp.testScripts.ProductPageTest">
+      <class name="com.uiFramework.myComp.myApp.testScripts.LoginTest">
         <methods>
           <include name="afterTest"/>
+          <include name="Login"/>
           <include name="setUp"/>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
-          <include name="scrollAndClick"/>
         </methods>
-      </class> <!-- com.uiFramework.myComp.myApp.testScripts.ProductPageTest -->
+      </class> <!-- com.uiFramework.myComp.myApp.testScripts.LoginTest -->
     </classes>
-  </test> <!-- Scroll(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

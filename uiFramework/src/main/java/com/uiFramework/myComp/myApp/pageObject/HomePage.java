@@ -23,13 +23,13 @@ public class HomePage {
 	@AndroidFindBy(xpath="//android.widget.Button[@text='REGISTER']")
 	WebElement register;
 	
-	@AndroidFindBy(xpath="//android.widget.Button[@text='SIGN IN']")
+	@AndroidFindBy(xpath="//android.widget.Button[contains(@text,'SIGN IN')]")
 	WebElement signin;
 	
 	@AndroidFindBy(xpath="//*[@id='com.ebay.mobile:id/capsule_selling']")
 	WebElement selling;
 	
-	@AndroidFindBy(xpath="//*[@id='com.ebay.mobile:id/capsule_deals']")
+	@AndroidFindBy(xpath="//*[@id='com.ebay.mobile:id/home_pill']")
 	WebElement deals;
 	
 	@AndroidFindBy(xpath="//*[@id='com.ebay.mobile:id/capsule_categories']")
@@ -54,9 +54,10 @@ public  boolean  isProductPageDisplayed() {
 		return new VerificationHelper(driver).isDisplayed(prompt);
 	}
 
-	public void clickOnSignInLink(){
+	public SignInPage clickOnSignInLink() throws InterruptedException{
 		log.info("clicked on sign in link...");
 		signin.click();
+		return new SignInPage(driver);
 	}
 	
 	public void clickOnRegisterLink(){

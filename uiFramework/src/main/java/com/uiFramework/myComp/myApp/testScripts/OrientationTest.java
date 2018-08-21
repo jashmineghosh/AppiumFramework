@@ -9,6 +9,7 @@ import com.uiFramework.myComp.myApp.helper.logger.LoggerHelper;
 import com.uiFramework.myComp.myApp.pageObject.ProductDetails;
 import com.uiFramework.myComp.myApp.pageObject.ProductPage;
 import com.uiFramework.myComp.myApp.testBase.TestBaseRunner;
+import com.uiFramework.myComp.myApp.utils.ExcelReadWrtite;
 
 import io.appium.java_client.AppiumDriver;
 
@@ -38,6 +39,6 @@ public class OrientationTest {
 	  boolean status = productDetails.isProductDEtailsPageDisplayed();
 		AssertionHelper.updateTestStatus(status);
 		TestBaseRunner.result = TestBaseRunner.passOrFail(status);
-		TestBaseRunner.updateResult("testData.xlsx", "TestScripts", "performOrientation", TestBaseRunner.result);
+		ExcelReadWrtite.updateResult("testData.xlsx", "TestScripts", "performOrientation", TestBaseRunner.result);
 	 }
 }

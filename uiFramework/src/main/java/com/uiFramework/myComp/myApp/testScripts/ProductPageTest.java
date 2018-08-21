@@ -9,6 +9,7 @@ import com.uiFramework.myComp.myApp.helper.wait.WaitHelper;
 import com.uiFramework.myComp.myApp.pageObject.ProductDetails;
 import com.uiFramework.myComp.myApp.pageObject.ProductPage;
 import com.uiFramework.myComp.myApp.testBase.TestBaseRunner;
+import com.uiFramework.myComp.myApp.utils.ExcelReadWrtite;
 
 public class ProductPageTest extends TestBaseRunner {
 
@@ -27,7 +28,7 @@ public class ProductPageTest extends TestBaseRunner {
 			boolean status = productdetails.isProductDEtailsPageDisplayed();
 			AssertionHelper.updateTestStatus(status);
 			TestBaseRunner.result = TestBaseRunner.passOrFail(status);
-			TestBaseRunner.updateResult("testData.xlsx", "TestScripts", "randomItem", result);
+			ExcelReadWrtite.updateResult("testData.xlsx", "TestScripts", "randomItem", result);
 	 }
 	 
 	 @Test
@@ -44,7 +45,7 @@ public class ProductPageTest extends TestBaseRunner {
 		 boolean status = productdetails.isProductDEtailsPageDisplayed();
 			AssertionHelper.updateTestStatus(status);
 			TestBaseRunner.result = TestBaseRunner.passOrFail(status);
-			TestBaseRunner.updateResult("testData.xlsx", "TestScripts", "scrollAndClick", result);
+			ExcelReadWrtite.updateResult("testData.xlsx", "TestScripts", "scrollAndClick", result);
 	 }
 	 
 }

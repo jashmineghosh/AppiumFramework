@@ -8,6 +8,7 @@ import com.uiFramework.myComp.myApp.helper.assertion.AssertionHelper;
 import com.uiFramework.myComp.myApp.helper.wait.WaitHelper;
 import com.uiFramework.myComp.myApp.pageObject.HomePage;
 import com.uiFramework.myComp.myApp.testBase.TestBaseRunner;
+import com.uiFramework.myComp.myApp.utils.ExcelReadWrtite;
 
 import io.appium.java_client.PressesKeyCode;
 import io.appium.java_client.android.AndroidKeyCode;
@@ -27,6 +28,6 @@ public class HomePageTest extends TestBaseRunner{
 		 boolean status = homepage.isProductPageDisplayed();
 			AssertionHelper.updateTestStatus(status);
 			TestBaseRunner.result = TestBaseRunner.passOrFail(status);
-			TestBaseRunner.updateResult("testData.xlsx", "TestScripts", "enterSearchCriteria", result);
+			ExcelReadWrtite.updateResult("testData.xlsx", "TestScripts", "enterSearchCriteria", result);
 	 } 
 }

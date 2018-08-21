@@ -4,7 +4,7 @@
   <test thread-count="5" name="DataDrive" preserve-order="true">
     <classes>
       <class name="com.uiFramework.myComp.myApp.testScripts.HomePageTestDataDrivenTest"/>
-      <class name="com.uiFramework.myComp.myApp.testScripts.ProductDetailsTest"/>
+     <!--   <class name="com.uiFramework.myComp.myApp.testScripts.ProductDetailsTest"/>-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

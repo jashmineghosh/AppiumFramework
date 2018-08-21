@@ -9,6 +9,7 @@ import com.uiFramework.myComp.myApp.helper.assertion.AssertionHelper;
 import com.uiFramework.myComp.myApp.helper.logger.LoggerHelper;
 import com.uiFramework.myComp.myApp.pageObject.HomePage;
 import com.uiFramework.myComp.myApp.testBase.TestBaseRunner;
+import com.uiFramework.myComp.myApp.utils.ExcelReadWrtite;
 
 import io.appium.java_client.PressesKeyCode;
 import io.appium.java_client.android.AndroidKeyCode;
@@ -17,9 +18,10 @@ public class HomePageTestDataDrivenTest extends TestBaseRunner{
 
 	
 	private Logger log = LoggerHelper.getLogger(HomePageTestDataDrivenTest.class);
+	
 	@DataProvider(name="testData")
 	public Object[][] testData(){
-		Object[][] data = getExcelData("testData.xlsx", "SearchData");
+		Object[][] data = ExcelReadWrtite.getExcelData("testData.xlsx", "SearchData");
 		return data;
 	}
 	@Test(dataProvider="testData")
@@ -34,7 +36,7 @@ public class HomePageTestDataDrivenTest extends TestBaseRunner{
 		boolean status = homepage.isProductPageDisplayed();
 		AssertionHelper.updateTestStatus(status);
 		TestBaseRunner.result = TestBaseRunner.passOrFail(status);
-		TestBaseRunner.updateResult("testData.xlsx", "TestScripts", "enterSearchCriteria", result);
+		ExcelReadWrtite.updateResult("testData.xlsx", "TestScripts", "enterSearchCriteria", result);
 	}
 	
 }

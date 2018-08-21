@@ -4,12 +4,12 @@
   <test thread-count="5" name="Random" preserve-order="true">
     <classes>
       <class name="com.uiFramework.myComp.myApp.testScripts.HomePageTest"/>
-      <class name="com.uiFramework.myComp.myApp.testScripts.ProductPageTest">
+        <class name="com.uiFramework.myComp.myApp.testScripts.ProductPageTest">
       <methods>
         <include name="randomItem" />
         <exclude name="scrollAndClick" />
       </methods>
-      </class>
+      </class> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
