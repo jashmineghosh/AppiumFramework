@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 import com.uiFramework.myComp.myApp.helper.assertion.VerificationHelper;
+import com.uiFramework.myComp.myApp.helper.deviceConfig.config.ObjectReader;
 import com.uiFramework.myComp.myApp.helper.logger.LoggerHelper;
 import com.uiFramework.myComp.myApp.helper.wait.WaitHelper;
 
@@ -56,6 +57,10 @@ public  boolean  isProductPageDisplayed() {
 
 	public SignInPage clickOnSignInLink() throws InterruptedException{
 		log.info("clicked on sign in link...");
+//		Thread.sleep(5000);
+		WaitHelper wait = new WaitHelper(driver);
+		wait.pageLoadTime(ObjectReader.reader .getPageLoadTime(), TimeUnit.SECONDS);
+		
 		signin.click();
 		return new SignInPage(driver);
 	}

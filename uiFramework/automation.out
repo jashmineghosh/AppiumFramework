@@ -2495,3 +2495,207 @@ Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.1
 System info: host: 'Arnabs-MacBook-Pro.local', ip: 'fe80:0:0:0:c91:bf5:cb66:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
 Driver info: driver.version: AndroidDriver
 2018-08-21 12:08:896 INFO  TestBaseRunner:137 - **************LoginFinished***************
+2018-08-21 16:08:845 INFO  TestBaseRunner:109 - Initialize Appium driver: 2104973502
+2018-08-21 16:08:864 INFO  TestBaseRunner:118 - Login....test started...
+2018-08-21 16:08:58 INFO  HomePage:58 - clicked on sign in link...
+2018-08-21 16:08:432 ERROR TestBaseRunner:126 - Login
+2018-08-21 16:08:433 ERROR TestBaseRunner:127 - org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:69:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Arnabs-MacBook-Pro.local', ip: 'fe80:0:0:0:c91:bf5:cb66:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
+Driver info: driver.version: AndroidDriver
+2018-08-21 16:08:412 INFO  TestBaseRunner:138 - **************LoginFinished***************
+2018-08-21 16:08:189 INFO  TestBaseRunner:109 - Initialize Appium driver: 2104973502
+2018-08-21 16:08:209 INFO  TestBaseRunner:118 - Login....test started...
+2018-08-21 16:08:391 INFO  HomePage:58 - clicked on sign in link...
+2018-08-21 16:08:573 ERROR TestBaseRunner:126 - Login
+2018-08-21 16:08:574 ERROR TestBaseRunner:127 - org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:69:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Arnabs-MacBook-Pro.local', ip: 'fe80:0:0:0:c91:bf5:cb66:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
+Driver info: driver.version: AndroidDriver
+2018-08-21 16:08:608 INFO  TestBaseRunner:138 - **************LoginFinished***************
+2018-08-21 16:08:281 INFO  TestBaseRunner:109 - Initialize Appium driver: 2104973502
+2018-08-21 16:08:303 INFO  TestBaseRunner:118 - Login....test started...
+2018-08-21 16:08:461 INFO  HomePage:58 - clicked on sign in link...
+2018-08-21 16:08:643 ERROR TestBaseRunner:126 - Login
+2018-08-21 16:08:644 ERROR TestBaseRunner:127 - org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:69:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Arnabs-MacBook-Pro.local', ip: 'fe80:0:0:0:c91:bf5:cb66:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
+Driver info: driver.version: AndroidDriver
+2018-08-21 16:08:680 INFO  TestBaseRunner:138 - **************LoginFinished***************
+2018-08-21 16:08:661 INFO  TestBaseRunner:109 - Initialize Appium driver: 1948810915
+2018-08-21 16:08:677 INFO  TestBaseRunner:118 - Login....test started...
+2018-08-21 16:08:839 INFO  HomePage:59 - clicked on sign in link...
+2018-08-21 16:08:962 ERROR TestBaseRunner:126 - Login
+2018-08-21 16:08:962 ERROR TestBaseRunner:127 - org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:69:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Arnabs-MacBook-Pro.local', ip: 'fe80:0:0:0:c91:bf5:cb66:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
+Driver info: driver.version: AndroidDriver
+2018-08-21 16:08:885 INFO  TestBaseRunner:138 - **************LoginFinished***************
+2018-08-21 16:08:811 INFO  TestBaseRunner:109 - Initialize Appium driver: 2104973502
+2018-08-21 16:08:825 INFO  TestBaseRunner:118 - Login....test started...
+2018-08-21 16:08:985 INFO  HomePage:59 - clicked on sign in link...
+2018-08-21 16:08:115 ERROR TestBaseRunner:126 - Login
+2018-08-21 16:08:115 ERROR TestBaseRunner:127 - org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:69:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Arnabs-MacBook-Pro.local', ip: 'fe80:0:0:0:c91:bf5:cb66:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
+Driver info: driver.version: AndroidDriver
+2018-08-21 16:08:25 INFO  TestBaseRunner:138 - **************LoginFinished***************
+2018-08-21 16:08:590 INFO  TestBaseRunner:109 - Initialize Appium driver: 1948810915
+2018-08-21 16:08:604 INFO  TestBaseRunner:118 - Login....test started...
+2018-08-21 16:08:765 INFO  HomePage:59 - clicked on sign in link...
+2018-08-21 16:08:887 ERROR TestBaseRunner:126 - Login
+2018-08-21 16:08:887 ERROR TestBaseRunner:127 - org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:69:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Arnabs-MacBook-Pro.local', ip: 'fe80:0:0:0:c91:bf5:cb66:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
+Driver info: driver.version: AndroidDriver
+2018-08-21 16:08:799 INFO  TestBaseRunner:138 - **************LoginFinished***************
+2018-08-21 16:08:599 INFO  TestBaseRunner:109 - Initialize Appium driver: 1242027525
+2018-08-21 16:08:614 INFO  TestBaseRunner:118 - Login....test started...
+2018-08-21 16:08:777 INFO  HomePage:59 - clicked on sign in link...
+2018-08-21 16:08:905 ERROR TestBaseRunner:126 - Login
+2018-08-21 16:08:905 ERROR TestBaseRunner:127 - org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:69:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Arnabs-MacBook-Pro.local', ip: 'fe80:0:0:0:c91:bf5:cb66:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
+Driver info: driver.version: AndroidDriver
+2018-08-21 16:08:808 INFO  TestBaseRunner:138 - **************LoginFinished***************
+2018-08-21 16:08:712 INFO  TestBaseRunner:109 - Initialize Appium driver: 2104973502
+2018-08-21 16:08:729 INFO  TestBaseRunner:118 - Login....test started...
+2018-08-21 16:08:891 INFO  HomePage:59 - clicked on sign in link...
+2018-08-21 16:08:14 ERROR TestBaseRunner:126 - Login
+2018-08-21 16:08:15 ERROR TestBaseRunner:127 - org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:69:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Arnabs-MacBook-Pro.local', ip: 'fe80:0:0:0:c91:bf5:cb66:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
+Driver info: driver.version: AndroidDriver
+2018-08-21 16:08:926 INFO  TestBaseRunner:138 - **************LoginFinished***************
+2018-08-21 16:08:389 INFO  TestBaseRunner:109 - Initialize Appium driver: 1948810915
+2018-08-21 16:08:406 INFO  TestBaseRunner:118 - Login....test started...
+2018-08-21 16:08:559 INFO  HomePage:59 - clicked on sign in link...
+2018-08-21 16:08:694 ERROR TestBaseRunner:126 - Login
+2018-08-21 16:08:694 ERROR TestBaseRunner:127 - org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:69:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Arnabs-MacBook-Pro.local', ip: 'fe80:0:0:0:c91:bf5:cb66:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
+Driver info: driver.version: AndroidDriver
+2018-08-21 16:08:579 INFO  TestBaseRunner:138 - **************LoginFinished***************
+2018-08-21 16:08:57 INFO  TestBaseRunner:109 - Initialize Appium driver: 1242027525
+2018-08-21 16:08:72 INFO  TestBaseRunner:118 - Login....test started...
+2018-08-21 16:08:231 INFO  HomePage:59 - clicked on sign in link...
+2018-08-21 16:08:392 ERROR TestBaseRunner:126 - Login
+2018-08-21 16:08:393 ERROR TestBaseRunner:127 - org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:69:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Arnabs-MacBook-Pro.local', ip: 'fe80:0:0:0:c91:bf5:cb66:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
+Driver info: driver.version: AndroidDriver
+2018-08-21 16:08:375 INFO  TestBaseRunner:138 - **************LoginFinished***************
+2018-08-21 16:08:52 INFO  TestBaseRunner:109 - Initialize Appium driver: 1242027525
+2018-08-21 16:08:67 INFO  TestBaseRunner:118 - Login....test started...
+2018-08-21 16:08:230 INFO  HomePage:59 - clicked on sign in link...
+2018-08-21 16:08:231 INFO  TestBaseRunner:32 - WaitHelper object created..
+2018-08-21 16:08:232 INFO  TestBaseRunner:147 - waiting for page to load for : SECONDS seconds
+2018-08-21 16:08:283 INFO  TestBaseRunner:149 - page is loaded
+2018-08-21 16:08:421 ERROR TestBaseRunner:126 - Login
+2018-08-21 16:08:422 ERROR TestBaseRunner:127 - org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:69:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Arnabs-MacBook-Pro.local', ip: 'fe80:0:0:0:c91:bf5:cb66:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
+Driver info: driver.version: AndroidDriver
+2018-08-21 16:08:344 INFO  TestBaseRunner:138 - **************LoginFinished***************
+2018-08-21 16:08:908 INFO  TestBaseRunner:109 - Initialize Appium driver: 2104973502
+2018-08-21 16:08:924 INFO  TestBaseRunner:118 - Login....test started...
+2018-08-21 16:08:91 INFO  HomePage:59 - clicked on sign in link...
+2018-08-21 16:08:94 INFO  TestBaseRunner:32 - WaitHelper object created..
+2018-08-21 16:08:94 INFO  TestBaseRunner:147 - waiting for page to load for : SECONDS seconds
+2018-08-21 16:08:103 INFO  TestBaseRunner:149 - page is loaded
+2018-08-21 16:08:244 ERROR TestBaseRunner:126 - Login
+2018-08-21 16:08:244 ERROR TestBaseRunner:127 - org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:69:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Arnabs-MacBook-Pro.local', ip: 'fe80:0:0:0:c91:bf5:cb66:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
+Driver info: driver.version: AndroidDriver
+2018-08-21 16:08:168 INFO  TestBaseRunner:138 - **************LoginFinished***************
+2018-08-21 16:08:889 INFO  TestBaseRunner:109 - Initialize Appium driver: 1242027525
+2018-08-21 16:08:908 INFO  TestBaseRunner:118 - Login....test started...
+2018-08-21 16:08:68 INFO  HomePage:59 - clicked on sign in link...
+2018-08-21 16:08:70 INFO  TestBaseRunner:32 - WaitHelper object created..
+2018-08-21 16:08:70 INFO  TestBaseRunner:147 - waiting for page to load for : MINUTES seconds
+2018-08-21 16:08:80 INFO  TestBaseRunner:149 - page is loaded
+2018-08-21 16:08:214 ERROR TestBaseRunner:126 - Login
+2018-08-21 16:08:215 ERROR TestBaseRunner:127 - org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:69:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>, error=no such element, message=An element could not be located on the page using the given search parameters.}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Arnabs-MacBook-Pro.local', ip: 'fe80:0:0:0:c91:bf5:cb66:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
+Driver info: driver.version: AndroidDriver
+2018-08-21 16:08:45 INFO  TestBaseRunner:138 - **************LoginFinished***************
