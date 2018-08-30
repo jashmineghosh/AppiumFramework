@@ -2699,3 +2699,39 @@ Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.1
 System info: host: 'Arnabs-MacBook-Pro.local', ip: 'fe80:0:0:0:c91:bf5:cb66:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
 Driver info: driver.version: AndroidDriver
 2018-08-21 16:08:45 INFO  TestBaseRunner:138 - **************LoginFinished***************
+2018-08-30 18:08:680 INFO  TestBaseRunner:109 - Initialize Appium driver: 735937428
+2018-08-30 18:08:698 INFO  TestBaseRunner:118 - enterSearchCriteria....test started...
+2018-08-30 18:08:875 INFO  HomePage:79 - entering some text....65 inch tv
+2018-08-30 18:08:877 INFO  TestBaseRunner:32 - WaitHelper object created..
+2018-08-30 18:08:878 INFO  TestBaseRunner:42 - Implicit Wait has been set to: 10
+2018-08-30 18:08:899 INFO  GenericMethodsWithAppiumInit:38 -  Entering Text Value
+2018-08-30 18:08:383 INFO  GenericMethodsWithAppiumInit:40 - Entered 65 inch tv Successfully
+2018-08-30 18:08:319 INFO  TestBaseRunner:32 - WaitHelper object created..
+2018-08-30 18:08:319 INFO  TestBaseRunner:147 - waiting for page to load for : SECONDS seconds
+2018-08-30 18:08:326 INFO  TestBaseRunner:149 - page is loaded
+2018-08-30 18:08:149 INFO  VerificationHelper:23 - element is Displayed..65 inch tv
+2018-08-30 18:08:829 INFO  ExcelHelper:102 - result updated..
+2018-08-30 18:08:965 INFO  TestBaseRunner:132 - enterSearchCriteria is pass
+2018-08-30 18:08:169 INFO  TestBaseRunner:138 - **************enterSearchCriteriaFinished***************
+2018-08-30 18:08:268 INFO  TestBaseRunner:109 - Initialize Appium driver: 735937428
+2018-08-30 18:08:292 INFO  TestBaseRunner:118 - enterSearchCriteria....test started...
+2018-08-30 18:08:542 INFO  HomePage:81 - entering some text....65 inch tv
+2018-08-30 18:08:545 INFO  TestBaseRunner:32 - WaitHelper object created..
+2018-08-30 18:08:545 INFO  TestBaseRunner:42 - Implicit Wait has been set to: 10
+2018-08-30 18:08:551 ERROR TestBaseRunner:126 - enterSearchCriteria
+2018-08-30 18:08:552 ERROR TestBaseRunner:127 - java.lang.NullPointerException
+2018-08-30 18:08:577 INFO  TestBaseRunner:138 - **************enterSearchCriteriaFinished***************
+2018-08-30 19:08:622 INFO  TestBaseRunner:109 - Initialize Appium driver: 1242027525
+2018-08-30 19:08:640 INFO  TestBaseRunner:118 - enterSearchCriteria....test started...
+2018-08-30 19:08:810 INFO  HomePage:82 - entering some text....65 inch tv
+2018-08-30 19:08:811 INFO  TestBaseRunner:32 - WaitHelper object created..
+2018-08-30 19:08:811 INFO  TestBaseRunner:42 - Implicit Wait has been set to: 10
+2018-08-30 19:08:822 INFO  GenericMethodsWithAppiumInit:37 -  Entering Text Value
+2018-08-30 19:08:796 INFO  GenericMethodsWithAppiumInit:39 - Entered 65 inch tv Successfully
+2018-08-30 19:08:789 INFO  TestBaseRunner:32 - WaitHelper object created..
+2018-08-30 19:08:790 INFO  TestBaseRunner:147 - waiting for page to load for : SECONDS seconds
+2018-08-30 19:08:796 INFO  TestBaseRunner:149 - page is loaded
+2018-08-30 19:08:885 INFO  VerificationHelper:23 - element is Displayed..When you save a search, we'll let you know when a new matching item is listed
+2018-08-30 19:08:588 INFO  ExcelHelper:102 - result updated..
+2018-08-30 19:08:694 INFO  TestBaseRunner:132 - enterSearchCriteria is pass
+2018-08-30 19:08:796 INFO  TestBaseRunner:138 - **************enterSearchCriteriaFinished***************

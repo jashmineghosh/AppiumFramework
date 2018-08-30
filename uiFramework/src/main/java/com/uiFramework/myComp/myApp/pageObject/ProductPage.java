@@ -11,12 +11,13 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.uiFramework.myComp.myApp.helper.logger.LoggerHelper;
 import com.uiFramework.myComp.myApp.helper.wait.WaitHelper;
+import com.uiFramework.myComp.myApp.utils.GenericMethodsWithAppiumInit;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
-public class ProductPage {
+public class ProductPage extends GenericMethodsWithAppiumInit{
 
 	private Logger log = LoggerHelper.getLogger(HomePage.class);
 	
@@ -43,22 +44,27 @@ public class ProductPage {
 	
 	private AppiumDriver<WebElement> driver;
 
-	public ProductPage(AppiumDriver<WebElement> driver) {
-		this.driver = driver;
-		PageFactory.initElements(new AppiumFieldDecorator( driver), this);
-		
-	}
+//	public ProductPage(AppiumDriver<WebElement> driver) {
+//		this.driver = driver;
+//		PageFactory.initElements(new AppiumFieldDecorator( driver), this);
+//		
+//	}
 	
+	public ProductPage(AppiumDriver<WebElement> driver) {
+		 super(driver);
+		this.driver=driver;
+	}
 	public void clickOnSomePrompt()
 	{
-		prompt.click();
+		GenericMethodsWithAppiumInit.clickOn(driver, prompt);
+//		prompt.click();
 	}
 	
 	public ProductDetails landscapeTest()
 	{
 		log.info("scroll and click on item after orientation has chnaged to landscape" );
-		
-		orientationCheckItem.click();
+		GenericMethodsWithAppiumInit.clickOn(driver, orientationCheckItem);
+//		orientationCheckItem.click();
 //		new WaitHelper(driver).pageLoadTime(30, TimeUnit.SECONDS);
 		return new ProductDetails(driver);
 		}
@@ -66,8 +72,8 @@ public class ProductPage {
 	public ProductDetails clickOnLastItem() throws InterruptedException
 	{
 		log.info("scroll and click on last item" );
-		
-		lastItem.click();
+		GenericMethodsWithAppiumInit.clickOn(driver, lastItem);
+//		lastItem.click();
 //		new WaitHelper(driver).pageLoadTime(60, TimeUnit.SECONDS);
 		Thread.sleep(7000);
 		return new ProductDetails(driver);
@@ -82,14 +88,16 @@ public class ProductPage {
 	public ProductDetails selectFirstItem()
 	{
 		log.debug("selecting first item...");
-		itemDesc.get(0).click();
+		GenericMethodsWithAppiumInit.clickOn(driver, itemDesc.get(0));
+//		itemDesc.get(0).click();
 		return new ProductDetails(driver);
 	}
 	
 	public ProductDetails clickSelectItem(Integer num)
 	{
 		log.debug("clicking chosen item...");
-		itemDesc.get(num).click();
+		GenericMethodsWithAppiumInit.clickOn(driver, itemDesc.get(num));
+//		itemDesc.get(num).click();
 		return new ProductDetails(driver);
 	}
 	
@@ -98,7 +106,8 @@ public class ProductPage {
 		
 		Random rand = new Random();
       int index = rand.nextInt(itemDesc.size()-1); // -1 because index will start from 0
-      itemDesc.get(index).click();
+      GenericMethodsWithAppiumInit.clickOn(driver, itemDesc.get(index));
+//      itemDesc.get(index).click();
       Thread.sleep(7000);
       
 		return new ProductDetails(driver);

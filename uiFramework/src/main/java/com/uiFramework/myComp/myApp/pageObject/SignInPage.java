@@ -5,12 +5,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 import com.uiFramework.myComp.myApp.helper.logger.LoggerHelper;
+import com.uiFramework.myComp.myApp.utils.GenericMethodsWithAppiumInit;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
-public class SignInPage {
+public class SignInPage extends GenericMethodsWithAppiumInit{
 
 	private Logger log = LoggerHelper.getLogger(SignInPage.class);
 	@AndroidFindBy(xpath="//*[@resource-id='com.ebay.mobile:id/edit_text_username']")
@@ -27,10 +28,15 @@ public class SignInPage {
 	
 	private AppiumDriver<WebElement> driver;
 
+//	public SignInPage(AppiumDriver<WebElement> driver) {
+//		this.driver = driver;
+//		PageFactory.initElements(new AppiumFieldDecorator( driver), this);
+//		
+//	}
+	
 	public SignInPage(AppiumDriver<WebElement> driver) {
-		this.driver = driver;
-		PageFactory.initElements(new AppiumFieldDecorator( driver), this);
-		
+		 super(driver);
+		this.driver=driver;
 	}
 
 public void clickSubmit()

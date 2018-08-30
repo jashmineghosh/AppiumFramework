@@ -10,13 +10,15 @@ import com.uiFramework.myComp.myApp.helper.assertion.VerificationHelper;
 import com.uiFramework.myComp.myApp.helper.deviceConfig.config.ObjectReader;
 import com.uiFramework.myComp.myApp.helper.logger.LoggerHelper;
 import com.uiFramework.myComp.myApp.helper.wait.WaitHelper;
+import com.uiFramework.myComp.myApp.utils.GenericMethodsWithAppiumInit;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
-public class HomePage {
+public class HomePage extends GenericMethodsWithAppiumInit{
 
+	
 	private Logger log = LoggerHelper.getLogger(HomePage.class);
 	@AndroidFindBy(xpath="//android.widget.TextView[@text='Search for anything']")
 	WebElement searchbox;
@@ -44,10 +46,15 @@ public class HomePage {
 	
 	private AppiumDriver<WebElement> driver;
 
+//	public HomePage(AppiumDriver<WebElement> driver) {
+//		this.driver = driver;
+//		PageFactory.initElements(new AppiumFieldDecorator( driver), this);
+//		
+//	}
+	
 	public HomePage(AppiumDriver<WebElement> driver) {
-		this.driver = driver;
-		PageFactory.initElements(new AppiumFieldDecorator( driver), this);
-		
+		 super(driver);
+		this.driver=driver;
 	}
 	
 public  boolean  isProductPageDisplayed() {
@@ -60,43 +67,46 @@ public  boolean  isProductPageDisplayed() {
 //		Thread.sleep(5000);
 		WaitHelper wait = new WaitHelper(driver);
 		wait.pageLoadTime(ObjectReader.reader .getPageLoadTime(), TimeUnit.SECONDS);
-		
-		signin.click();
+		GenericMethodsWithAppiumInit.clickOn(driver, signin);
+//		signin.click();
 		return new SignInPage(driver);
 	}
 	
 	public void clickOnRegisterLink(){
 		log.info("clicked on register link...");
-		register.click();
+		GenericMethodsWithAppiumInit.clickOn(driver, register);
+//		register.click();
 	}
 	
 	public void enterInSearchBox(String text) throws InterruptedException{
 		log.info("entering some text...."+text);
 //		 Thread.sleep(5000);
 		new WaitHelper(driver).setImplicitWait(10, TimeUnit.SECONDS);
-		searchbox.sendKeys(text);
-		
+		GenericMethodsWithAppiumInit.enterTextValue(searchbox, text);
+//		searchbox.sendKeys(text);
 	}
+	
+	
 	public void clickOnSelling(){
 		log.info("clicked on selling....");
-		
-		selling.click();
+		GenericMethodsWithAppiumInit.clickOn(driver, selling);
+//		selling.click();
 	}
 	
 	public void clickOnDeals(){
 		log.info("clicked on deals....");
-		
-		deals.click();
+		GenericMethodsWithAppiumInit.clickOn(driver, deals);
+//		deals.click();
 	}
 
 	public void clickOnCategories(){
 		log.info("clicked on categories....");
-		
-		categories.click();
+		GenericMethodsWithAppiumInit.clickOn(driver, categories);
+//		categories.click();
 	}
 	public void clickOnSaved(){
 		log.info("clicked on saved....");
-		
-		saved.click();
+		GenericMethodsWithAppiumInit.clickOn(driver, saved);
+//		saved.click();
 }
 }

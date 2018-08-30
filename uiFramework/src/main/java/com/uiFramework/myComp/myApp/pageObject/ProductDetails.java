@@ -8,20 +8,25 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.uiFramework.myComp.myApp.helper.assertion.VerificationHelper;
 import com.uiFramework.myComp.myApp.helper.logger.LoggerHelper;
+import com.uiFramework.myComp.myApp.utils.GenericMethodsWithAppiumInit;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
-public class ProductDetails {
+public class ProductDetails extends GenericMethodsWithAppiumInit{
 
 	private Logger log = LoggerHelper.getLogger(HomePage.class);
 	private AppiumDriver<WebElement> driver;
 	
+//	public ProductDetails(AppiumDriver<WebElement> driver) {
+//		this.driver = driver;
+//		PageFactory.initElements(new AppiumFieldDecorator( driver), this);
+//		
+//	}
 	public ProductDetails(AppiumDriver<WebElement> driver) {
-		this.driver = driver;
-		PageFactory.initElements(new AppiumFieldDecorator( driver), this);
-		
+		 super(driver);
+		this.driver=driver;
 	}
 	@AndroidFindBy(id="com.ebay.mobile:id/textview_item_name")
 	WebElement itemDesc;
